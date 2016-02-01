@@ -8,13 +8,9 @@ namespace NetflixCatalog
 {
     public class View
     {
-        Genre genre;
         public void PrintCatalog()
         {
-            foreach (Title title in genre.titleList)
-            {
-                Console.WriteLine(title.ToString());
-            }
+
         }
 
     }
